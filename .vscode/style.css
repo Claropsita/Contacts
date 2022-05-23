@@ -1,0 +1,95 @@
+   *{
+     margin:0;
+   }
+   
+   body {
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://serving.photos.photobox.com/28318964006fbd8c2b428bdb61f84877e4182f5d45ba93cb215bbcb0059770b57b103040.jpg");
+  background-color: rgb(62, 183, 157);  
+}
+ 
+ img {
+    border-radius: 50%;
+  }
+  
+  .container { 
+
+display:flex;
+flex-direction: column;
+justify-content: space-between 2px;
+align-items: center;
+width:100%;
+height: 200px;
+;
+margin-bottom: 90px;
+ 
+}
+
+.bt {
+  
+  margin-bottom: 0.2rem;
+  border-radius: 9px;
+  display:inline-block;
+  cursor:pointer;
+ width: 200px;
+ 
+}
+  
+
+  .icons {
+display: flex;
+justify-content: space-between;
+margin-top: 0.3rem;
+}
+
+  a {
+  text-decoration:none;
+  color: rgb(217, 75, 47);
+ font-family: Poppins;
+  font-weight: bold;
+  font-size:20px;
+  }
+ 
+.svg {
+  border-radius: 0%;
+}
+
+.avatar img{
+  width: 208px ;
+  height: 208px ;
+  border-radius: 50% ;
+  overflow:hidden
+}
+
+id .Layer_1 {
+width: 24px;
+height: 24px
+
+}
+
+.name {
+  font-family: 'Square Peg', cursive;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 35px;
+  text-shadow: 5px;
+  text-shadow: 2px 5px #263c07;
+  display: flex;
+  margin-top: 2rem;
+  height: 8rem;
+  margin-left: 2rem;
+}
+
+.container p{
+  color: white;
+  font-family: 'Poppins';
+  opacity: 80%;
+  margin-bottom: 0.2rem;
+}
+
+#cockatiel {
+  height: 9rem;
+  margin-top: -1.78rem;
+  margin-left: -1.7rem;
+}
+
